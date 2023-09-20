@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estiloLogin.css">
+    <title>Formulário de Login</title>
+   
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Logo</a>
+            <div id="textu">ProSafety Connect</div>
+        </div>
+    </nav>
+
+
+    <img class="imagem-fora-container" src="sua_imagem.jpg" alt="Logo">
+
+    <div class="login-container">
+        <div class="icons">
+            <a href="pagina_fechar.html"><i class="medium material-icons">account_circle</i></a>
+        </div>
+        <h2>Login</h2>
+        <form class="login-form" action="processar_login.php" method="POST">
+            <label for="matricula">Matrícula:</label>
+            <input type="text" id="matricula" name="matricula" required><br><br>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required><br><br>
+
+            <a class="waves-effect waves-light btn-small">Login</a>
+        </form>
+    </div>
+    <div id = "fundo">
+        <a href="outra_pagina.html">Funcionário</a> |
+        <a href="outra_pagina.html">Empresa</a>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
